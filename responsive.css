@@ -1,10 +1,81 @@
-* {
-  box-sizing:border-box;
+@media (max-width: 1000px) {
+    .top-wrapper{
+        width: 910px;
+    }
+    .top-wrapper h1 {
+        font-size: 50px;
+    }
+    .top-wrapper p {
+        font-size: 20px;
+    }
+    .service {
+        width: 25%;
+    }
+	.services-wrapper {
+        width: 900px;
+        
+    }
+    .heading h2 {
+        padding-right: 170px;
+    }
+    .about {
+        width: 100%;
+        padding-left: 120px;
+
+    }
+    .anggota {
+        padding: 10px;
+    }
+    .poster {
+        padding-top: 200px;
+    }
+    .poster img {
+        width: 910px;
+        height: 300px;
+    }
+    .left-text h1 {
+        font-size: 25px;
+    }
+    .left-text p {
+        font-size: 15px;
+    }
+
+    .footer-copyright {
+        width:910px;
+    }
+    .footer-logo {
+        padding-left: 150px;
+    }
+    .footer-list {
+        padding-left: 80px;
+    }
 }
 
-.container {
-  /* Ubah width ke 100% */
-  width: 100%;
-  padding: 0 15px;
-  margin: 0 auto;
+@media (max-width: 670px ) {
+    .about {
+        width: 800px;
+    }
+    .left-text h1{
+        width: 300px;
+        font-size: 20px;
+    }
+    .left-text p{
+        width: 300px;
+        font-size: 15px;
+    }
+    footer  {
+        width:800px;
+    }
+    .footer-logo {
+        padding-right: 50px;
+    }
+    .btn {
+        padding-left: 500px;
+    }
+    .header-right {
+        display:none;
+    }
+    .menu-icon {
+        display:block;
+    }
 }
