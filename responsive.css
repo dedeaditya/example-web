@@ -13,7 +13,7 @@
     }
 	.services-wrapper {
         width: 900px;
-        
+
     }
     .heading h2 {
         padding-right: 170px;
@@ -55,22 +55,36 @@
     .about {
         width: 800px;
     }
+    .left-text{
+      text-align: left;
+      width: 400px;
+    }
     .left-text h1{
-        width: 300px;
-        font-size: 20px;
+      font-size:24px;
+      line-height:36px;
     }
     .left-text p{
-        width: 300px;
-        font-size: 15px;
+      font-size:14px;
+      line-height:20px;
+    }
+    .heading{
+      width: 100%;
+    }
+    .left{
+      width: 800px;
+    }
+    .right{
+      width: 800px;
     }
     footer  {
         width:800px;
+        text-align: center;
     }
     .footer-logo {
         padding-right: 50px;
     }
     .btn {
-        padding-left: 500px;
+        width: 205px;
     }
     .header-right {
         display:none;
